@@ -1,7 +1,6 @@
 <?php
 namespace Elementor\TemplateLibrary;
 
-use Elementor\Api;
 use Elementor\Plugin;
 
 /**
@@ -34,7 +33,7 @@ class Source_Custom extends Source_Base {
 	 *
 	 * @var string API info URL.
 	 */
-	public static $api_info_url = 'http://localhost/wordpress/info.json';
+	public static $api_info_url = 'YOUR_API_INFO_URL_HERE';
 
 	/**
 	 * API get template content URL.
@@ -46,7 +45,7 @@ class Source_Custom extends Source_Base {
 	 *
 	 * @var string API get template content URL.
 	 */
-	private static $api_get_template_content_url = 'https://my.elementor.com/api/v1/templates/%d';
+	private static $api_get_template_content_url = 'YOUR_TEMPLATE_CONTENT_URL_HERE/%d';
 
 	/**
 	 * Get remote template ID.
