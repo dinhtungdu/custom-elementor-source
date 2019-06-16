@@ -8,8 +8,6 @@ use Elementor\Plugin;
  *
  * Elementor template library remote source handler class is responsible for
  * handling remote templates from Elementor.com servers.
- *
- * @since 1.0.0
  */
 class Source_Custom extends Source_Base {
 
@@ -52,7 +50,6 @@ class Source_Custom extends Source_Base {
 	 *
 	 * Retrieve the remote template ID.
 	 *
-	 * @since 1.0.0
 	 * @access public
 	 *
 	 * @return string The remote template ID.
@@ -66,7 +63,6 @@ class Source_Custom extends Source_Base {
 	 *
 	 * Retrieve the remote template title.
 	 *
-	 * @since 1.0.0
 	 * @access public
 	 *
 	 * @return string The remote template title.
@@ -81,7 +77,6 @@ class Source_Custom extends Source_Base {
 	 * Used to register custom template data like a post type, a taxonomy or any
 	 * other data.
 	 *
-	 * @since 1.0.0
 	 * @access public
 	 */
 	public function register_data() {}
@@ -91,7 +86,6 @@ class Source_Custom extends Source_Base {
 	 *
 	 * Retrieve remote templates from Elementor.com servers.
 	 *
-	 * @since 1.0.0
 	 * @access public
 	 *
 	 * @param array $args Optional. Nou used in remote source.
@@ -117,7 +111,6 @@ class Source_Custom extends Source_Base {
 	 *
 	 * Retrieve the templates data from a remote server.
 	 *
-	 * @since 2.0.0
 	 * @access public
 	 * @static
 	 *
@@ -143,7 +136,6 @@ class Source_Custom extends Source_Base {
 	 *
 	 * This function notifies the user of upgrade notices, new templates and contributors.
 	 *
-	 * @since 2.0.0
 	 * @access private
 	 * @static
 	 *
@@ -199,7 +191,6 @@ class Source_Custom extends Source_Base {
 	 *
 	 * Retrieve a single remote template from Elementor.com servers.
 	 *
-	 * @since 1.0.0
 	 * @access public
 	 *
 	 * @param int $template_id The template ID.
@@ -218,7 +209,6 @@ class Source_Custom extends Source_Base {
 	 * Remote template from Elementor.com servers cannot be saved on the
 	 * database as they are retrieved from remote servers.
 	 *
-	 * @since 1.0.0
 	 * @access public
 	 *
 	 * @param array $template_data Remote template data.
@@ -235,7 +225,6 @@ class Source_Custom extends Source_Base {
 	 * Remote template from Elementor.com servers cannot be updated on the
 	 * database as they are retrieved from remote servers.
 	 *
-	 * @since 1.0.0
 	 * @access public
 	 *
 	 * @param array $new_data New template data.
@@ -252,7 +241,6 @@ class Source_Custom extends Source_Base {
 	 * Remote template from Elementor.com servers cannot be deleted from the
 	 * database as they are retrieved from remote servers.
 	 *
-	 * @since 1.0.0
 	 * @access public
 	 *
 	 * @param int $template_id The template ID.
@@ -269,7 +257,6 @@ class Source_Custom extends Source_Base {
 	 * Remote template from Elementor.com servers cannot be exported from the
 	 * database as they are retrieved from remote servers.
 	 *
-	 * @since 1.0.0
 	 * @access public
 	 *
 	 * @param int $template_id The template ID.
@@ -285,7 +272,6 @@ class Source_Custom extends Source_Base {
 	 *
 	 * Retrieve the data of a single remote template from Elementor.com servers.
 	 *
-	 * @since 1.5.0
 	 * @access public
 	 *
 	 * @param array  $args    Custom template arguments.
@@ -317,7 +303,6 @@ class Source_Custom extends Source_Base {
 	 *
 	 * Retrieve the templates content received from a remote server.
 	 *
-	 * @since 1.0.0
 	 * @access public
 	 * @static
 	 *
@@ -339,8 +324,6 @@ class Source_Custom extends Source_Base {
 		 * API: Template body args.
 		 *
 		 * Filters the body arguments send with the GET request when fetching the content.
-		 *
-		 * @since 1.0.0
 		 *
 		 * @param array $body_args Body arguments.
 		 */
@@ -375,7 +358,6 @@ class Source_Custom extends Source_Base {
 	}
 
 	/**
-	 * @since 2.2.0
 	 * @access private
 	 */
 	private function prepare_template( array $template_data ) {
