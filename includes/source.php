@@ -31,7 +31,7 @@ class Source_Custom extends Source_Base {
 	 *
 	 * @var string API info URL.
 	 */
-	public static $api_info_url = 'YOUR_API_INFO_URL_HERE';
+	public static $api_info_url = 'https://raw.githubusercontent.com/dinhtungdu/custom-elementor-library-dummy-api/master/info.json';
 
 	/**
 	 * API get template content URL.
@@ -43,7 +43,7 @@ class Source_Custom extends Source_Base {
 	 *
 	 * @var string API get template content URL.
 	 */
-	private static $api_get_template_content_url = 'YOUR_TEMPLATE_CONTENT_URL_HERE/%d';
+	private static $api_get_template_content_url = 'https://raw.githubusercontent.com/dinhtungdu/custom-elementor-library-dummy-api/master/templates/%d.json';
 
 	/**
 	 * Get remote template ID.
