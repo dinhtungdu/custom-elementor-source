@@ -10,6 +10,6 @@ This plugin is an example of overriding Elementor template library as detail [he
 5. Create/edit a post and see the new remote library.
 
 ## Notes
-* This branch is updated with a dummy API to help you test the custom source without any modification to the plugin as `master` readme shows.
+* This branch is updated with a dummy API to help you test the custom source without any modification as the `master`does.
 * You shouldn't use the (dummy) method used in this branch in production.
 * This plugin is just an example of how we override Elementor library. You should put the source class in your plugin (recommended) or your theme.
